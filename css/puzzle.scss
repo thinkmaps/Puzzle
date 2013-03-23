@@ -1,0 +1,52 @@
+#header {
+  font-size: 25px;
+  height: 125px !important;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+#sidebar {
+  width: 420px !important;
+}
+
+#header #heading {
+  margin: 20px;
+  font-size: 22px;
+}
+
+#header #subHeading {
+  margin-top: 5px;
+  margin-left: 2px;
+  font-size: 12px;
+}
+
+#sidebar table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-spacing: 0;
+  margin: 0;
+}
+
+#sidebar table td {
+  padding: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+#sidebar h1 {
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 5px;
+}
+
+#sidebar p {
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 5px;
+}
+
+#sidebar img {
+  width: 100px;
+  height: 100px;
+}

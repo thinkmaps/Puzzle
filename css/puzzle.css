@@ -1,0 +1,37 @@
+#header #heading {
+  font-family: "Strait",sans-serif;
+  text-shadow: 1px 1px 1px #c8c8c8;
+  margin-top: 3px;
+  font-size: 22px; }
+
+#header #subHeading {
+  font-family: "Verdana",sans-serif;
+  margin-top: 5px;
+  margin-left: 2px;
+  font-size: 12px; }
+
+#sidebar table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-spacing: 0px;
+  margin: 0; }
+
+#sidebar table td {
+  padding: 0px;
+  width: 100px;
+  height: 100px; }
+
+#sidebar h1 {
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 5px; }
+
+#sidebar p {
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 5px; }
+
+#sidebar img {
+  width: 100px;
+  height: 100px; }

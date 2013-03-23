@@ -1,0 +1,35 @@
+$headerBgColor: rgb(68, 68, 68);
+$sidebarBgColor: white;
+$contentBgColor: white;
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body, table {
+  overflow: hidden;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+#borderContainer{
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  background-color: $headerBgColor;
+  height: 55px;
+}
+
+#sidebar {
+  background-color: $sidebarBgColor;
+  width: 250px;
+}
+
+#content {
+  background-color: $contentBgColor;
+}
+

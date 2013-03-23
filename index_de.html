@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Europa Puzzle</title>
+
+    <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact/"></script>
+    <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/dojo/dijit/themes/tundra/tundra.css">
+    <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css">
+
+    <link rel="stylesheet" type="text/css" href="css/thinkmaps.puzzle.css"/>
+    <script src="javascript/thinkmaps.js"></script>
+    <script src="javascript/thinkmaps.puzzle.js"></script>
+    <script src="javascript/thinkmaps.puzzle.localization.js"></script>
+    <script src="javascript/thinkmaps.puzzle.countries.js"></script>
+
+</head>
+
+<body class="tundra">
+
+    <div data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="gutters:false" id="borderContainer">
+        <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'top'" id="header">
+            <div id="heading">
+                Kennen Sie Europa?<br>
+                <div id="subHeading">
+                    L&auml;nder von der rechten Seite an die richtige Position in der Karte ziehen.<br>
+                    <div id="time" style="color: #a8cae6; padding-top: 10px;"></div>
+                </div>
+            </div>
+        </div>
+        <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'right'" id="sidebar"></div>
+        <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'" id="content"></div>
+    </div>
+
+</body>
+
+</html>
