@@ -133,7 +133,7 @@ thinkmaps.puzzle = (function (connect) {
             iso = countries[i].iso;
             name = countries[i][language];
 
-            t += "<td><img src='images/" + iso + ".png' id='" + iso;
+            t += "<td><img src='Images/" + iso + ".png' id='" + iso;
             t+= "' onmousedown='thinkmaps.puzzle.setImage(this)' title='" + name + "'></td>";
             internalCounter++;
 
